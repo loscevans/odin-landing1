@@ -1,1 +1,1 @@
-# newlp
+# Odin landing page project
