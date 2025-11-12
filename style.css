@@ -173,3 +173,40 @@ header {
     font-weight: 600;
 }
 
+/* --- */
+
+.s3-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    width: 75%;
+    height: 150px;
+    margin: 60px auto;
+    border-radius: 16px;
+}
+
+.s3-box {
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+}
+
+#s3-text {
+    color: #e5e7eb;
+    margin: 0;
+}
+
+.secondary-button {
+    background-color: #3882f6;
+    color: white;
+    border: 2px;    
+    border-style: solid;
+    border-color: white;
+    border-radius: 8px;  
+    width: max-content;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 24px;
+
+}
