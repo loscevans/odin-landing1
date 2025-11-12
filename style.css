@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     gap: 0px;
     font-family: 'Roboto';
+    margin: 0;
 } 
 
 nav {
@@ -96,4 +97,47 @@ header {
     border: 0;
     padding: 12px 24px;
     border-radius: 8px;
+}
+
+/* --- */
+
+
+
+.s1-title {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin: 40px 0px 48px 0px;
+}
+
+.s1-container {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.s1-box-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.s1-box {
+    height: 175px;
+    width: 175px;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 16px;
+    border-color: blue;
+}
+
+#s1-text {
+    color: rgb(32, 31, 31);
+    font-size: 18px;
 }
